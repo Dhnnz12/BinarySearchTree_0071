@@ -36,8 +36,9 @@ void insert(string element)
 	Node* currentNode = NULL;
 	search (element, parent, currentNode);
 	if (parent == NULL)
-
 	{
+		ROOT = newNode;
+		return;
 	}
 	}
 };
