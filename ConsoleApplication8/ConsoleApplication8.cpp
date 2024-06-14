@@ -25,4 +25,8 @@ public:
 		ROOT = NULL;
 
 	}
+void insert(string element)
+{
+
+}
 };
