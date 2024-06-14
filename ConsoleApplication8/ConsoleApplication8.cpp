@@ -40,5 +40,10 @@ void insert(string element)
 		ROOT = newNode;
 		return;
 	}
+
+	if (element < parent->info)
+
+{
+		parent->leftchild = newNode;
 	}
 };
